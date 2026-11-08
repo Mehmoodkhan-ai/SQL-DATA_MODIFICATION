@@ -1,0 +1,55 @@
+1. INT (Integer)
+
+Stores whole numbers without decimal points.
+Age INT
+Examples: 18, 25, 100
+
+2. DECIMAL(p,s)
+
+Stores exact decimal numbers. Mostly used for money and prices.
+Price DECIMAL(10,2)
+Example: 1250.50
+- 10 = Total digits.
+- 2 = Digits after decimal.
+
+3. FLOAT
+
+Stores approximate decimal values.
+Temperature FLOAT
+Example: 36.567891
+
+4. VARCHAR(n)
+Stores text with variable length.
+Name VARCHAR(50)
+Example: 'Mehmood'
+
+5. NVARCHAR(n)
+Stores Unicode text, including different languages.
+Name NVARCHAR(100)
+Example: 'محمد', 'Hello'
+
+6. CHAR(n)
+
+Stores fixed-length text.
+Country_Code CHAR(3)
+Example: 'PAK'
+
+7. DATE / TIME / DATETIME2
+
+Stores date and time information.
+Birth_Date DATE
+Login_Time TIME
+Created_At DATETIME2
+
+
+8. BIT
+
+Stores Boolean-like values.
+Is_Active BIT
+- 1 = True
+- 0 = False
+
+
+DIFFERENCE BETWEEN
+DECIMAL is used when accuracy is important, such as financial transactions.
+FLOAT is used when approximate decimal values are acceptable, such as scientific calculat
